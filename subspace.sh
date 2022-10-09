@@ -4,7 +4,7 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-cd $HOME
+cd /media/subfolder/subspace2
 
 if [[ "$1" == "uninstall" ]]; then
         printf "${GREEN}Удаление ноды${NC}\n"
